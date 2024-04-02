@@ -1,11 +1,9 @@
-import Button from "./components/Button";
-import Count from "./components/Count";
+import ProjectOne from "./projects/basicCounter/ProjectOne";
 
 const App = () => {
   return (
-    <div className="flex flex-col justify-center items-center">
-      <Count />
-      <Button />
+    <div>
+      <ProjectOne />
     </div>
   );
 };
