@@ -1,8 +1,10 @@
+import { MinusIcon, PlusIcon } from "@radix-ui/react-icons";
+
 export default function CountButtons() {
   return (
     <div>
-      <button>Decrement</button>
-      <button>Increment</button>
+      <PlusIcon className="plus-btn-icon" />
+      <MinusIcon className="minus-btn-icon" />
     </div>
   );
 }
