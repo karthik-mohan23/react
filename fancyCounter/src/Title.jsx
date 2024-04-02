@@ -1,3 +1,3 @@
-export default function Title() {
-  return <h1>Fancy Counter</h1>;
+export default function Title({ isDisabled }) {
+  return <h1>{isDisabled ? "Limit! Buy pro for $5.  " : "Fancy Counter"}</h1>;
 }

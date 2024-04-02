@@ -1,3 +1,5 @@
-export default function Count() {
-  return <p>0</p>;
+export default function Count(props) {
+  const { count } = props;
+
+  return <h1>{count}</h1>;
 }
